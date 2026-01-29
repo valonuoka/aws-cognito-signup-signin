@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowLambdaRoleToWriteUserProfiles",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::274588776546:role/service-role/tinotasklambda-role-xh5lccpr"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::tinotaskbucket/users/*"
+        }
+    ]
+}
