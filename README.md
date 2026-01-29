@@ -16,10 +16,9 @@ This project implements a user authentication flow using:
 
 ## AWS Services Used
 - Amazon Cognito
-- AWS Lambda (Python)
+- AWS Lambda (Node.js)
 - Amazon S3
 - AWS IAM
-- Amazon CloudWatch
 
 ## Lambda Triggers
 - Post Confirmation Trigger  
